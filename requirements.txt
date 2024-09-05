@@ -1,4 +1,5 @@
 openai
+numpy<2
 fastapi==0.74.*
 requests==2.27.*
 uvicorn[standard]==0.17.*
