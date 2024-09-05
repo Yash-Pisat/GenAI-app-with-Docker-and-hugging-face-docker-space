@@ -1,9 +1,9 @@
-from fastapi import fastapi
+from fastapi import FastAPI
 from transformers import pipeline
 
 
-## create a new FASTAPI app instance
-app = fastapi()
+## create a new FastAPI app instance
+app = FastAPI()
 
 ## Initialize the text generation pipeline
 pipe = pipeline("text2text-generation", model="google/flan-t5-small")
