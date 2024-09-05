@@ -22,4 +22,4 @@ def generate(text:str):
     output = pipe(text)
 
     ## return the generated text in json response
-    return {"output":output[0]['Generated_text']}
+    return {"output":output[0]['generated_text']}
