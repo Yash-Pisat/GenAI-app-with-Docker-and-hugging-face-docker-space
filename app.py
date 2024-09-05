@@ -9,7 +9,7 @@ app = FastAPI()
 pipe = pipeline("text2text-generation", model="google/flan-t5-small")
 
 
-@app.get()
+@app.get("/")
 def home():
     return{"message":"Hello World"}
 
